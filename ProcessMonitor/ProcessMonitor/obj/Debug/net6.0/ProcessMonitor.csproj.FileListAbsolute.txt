@@ -1,0 +1,15 @@
+C:\c_sharp_repos\ProcessManager\ProcessMonitor\ProcessMonitor\obj\Debug\net6.0\ProcessMonitor.csproj.AssemblyReference.cache
+C:\c_sharp_repos\ProcessManager\ProcessMonitor\ProcessMonitor\obj\Debug\net6.0\ProcessMonitor.GeneratedMSBuildEditorConfig.editorconfig
+C:\c_sharp_repos\ProcessManager\ProcessMonitor\ProcessMonitor\obj\Debug\net6.0\ProcessMonitor.AssemblyInfoInputs.cache
+C:\c_sharp_repos\ProcessManager\ProcessMonitor\ProcessMonitor\obj\Debug\net6.0\ProcessMonitor.AssemblyInfo.cs
+C:\c_sharp_repos\ProcessManager\ProcessMonitor\ProcessMonitor\obj\Debug\net6.0\ProcessMonitor.csproj.CoreCompileInputs.cache
+C:\c_sharp_repos\ProcessManager\ProcessMonitor\ProcessMonitor\bin\Debug\net6.0\ProcessMonitor.exe
+C:\c_sharp_repos\ProcessManager\ProcessMonitor\ProcessMonitor\bin\Debug\net6.0\ProcessMonitor.deps.json
+C:\c_sharp_repos\ProcessManager\ProcessMonitor\ProcessMonitor\bin\Debug\net6.0\ProcessMonitor.runtimeconfig.json
+C:\c_sharp_repos\ProcessManager\ProcessMonitor\ProcessMonitor\bin\Debug\net6.0\ProcessMonitor.dll
+C:\c_sharp_repos\ProcessManager\ProcessMonitor\ProcessMonitor\bin\Debug\net6.0\ProcessMonitor.pdb
+C:\c_sharp_repos\ProcessManager\ProcessMonitor\ProcessMonitor\obj\Debug\net6.0\ProcessMonitor.dll
+C:\c_sharp_repos\ProcessManager\ProcessMonitor\ProcessMonitor\obj\Debug\net6.0\refint\ProcessMonitor.dll
+C:\c_sharp_repos\ProcessManager\ProcessMonitor\ProcessMonitor\obj\Debug\net6.0\ProcessMonitor.pdb
+C:\c_sharp_repos\ProcessManager\ProcessMonitor\ProcessMonitor\obj\Debug\net6.0\ProcessMonitor.genruntimeconfig.cache
+C:\c_sharp_repos\ProcessManager\ProcessMonitor\ProcessMonitor\obj\Debug\net6.0\ref\ProcessMonitor.dll

@@ -32,8 +32,6 @@ namespace ProcessMonitor.ProcessManager
                 Directory.CreateDirectory(dirName);
             }
 
-
-
             foreach (ProcessInfo pInfo in pInfos)
             {
                 string procStr = $"\n{pInfo.ProcName}\n------------------------\n\tPID: {pInfo.ProcPid}\n\tBasePriority: {pInfo.ProcBasePriority}\n\tPhysicalMemoryUsage: {pInfo.ProcPhysicalMemoryUsage}\n\tStatus: {pInfo.ProcStatus}\n";
@@ -43,6 +41,25 @@ namespace ProcessMonitor.ProcessManager
             string pathName = Path.Combine(dirName, fileName);
 
             File.WriteAllLines(pathName, list);
+        }
+
+        public static List<ProcessInfo> IterateProcesses(Process[] processes)
+        {
+            List<ProcessInfo> processInfoList = new();
+            ProcessInfo processInfo;
+
+            foreach (Process process in processes)
+            {
+                processInfo = new ProcessInfo(process);
+                processInfoList.Add(processInfo);
+            }
+            return processInfoList;
+        }
+
+        public static ProcessInfo GetProcessInfo(Process process)
+        {
+            ProcessInfo processInfo = new ProcessInfo(process);
+            return processInfo;
         }
     }
 }

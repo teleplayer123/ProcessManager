@@ -15,7 +15,7 @@ namespace ProcessMonitor
         {
             var pcaller = CallFactory.GetProcessCalls();
             var processes = pcaller.GetAllLocalProcesses();
-            var result = PMonitor.IterateProcesses(processes);
+            var result = PUtils.IterateProcesses(processes);
             foreach(ProcessInfo pinfo in result ) 
             {
                 PUtils.PrintProcessInfo(pinfo);
