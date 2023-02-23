@@ -16,7 +16,12 @@ namespace ProcessMonitor.Interop
             [In] uint processId);
 
         [DllImport("kernel32.dll")]
-        public static extern int Process32First(
+        public static extern bool Process32First(
+            [In] IntPtr hSnapshot,
+            [Out] out ProcessEntry32 lpPE);
+
+        [DllImport("kernel32.dll")]
+        public static extern bool Process32Next(
             [In] IntPtr hSnapshot,
             [Out] out ProcessEntry32 lpPE);
     }
