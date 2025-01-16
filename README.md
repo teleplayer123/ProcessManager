@@ -1,2 +1,2 @@
 # ProcessManager
-C# Application to list and eventually manage processes on windows.
+C# Application to list processes on windows.
